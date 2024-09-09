@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 5</title>
+</head>
+<style>
+    body {
+        background-color: cornflowerblue;
+    }
+    h1 {
+        background-color:rgb(255, 255, 255);
+        text-align:left;
+        border-left: 5px solid  red;
+    }
+    form {
+        border-style: groove;
+        border-radius: 0cqmax;
+    }
+
+</style>
+<body>
+    <h1>Belajar Membuat Formulir</h1><hr>
+
+    <form action="">
+        <table>
+            <tr p="class">
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="tmptlahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tgllahir"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Baca"> Baca <br>
+                    <input type="checkbox" name="hobi" value="Mancing"> Mancing <br>
+                    <input type="checkbox" name="hobi" value="Nulis"> Nulis <br>
+                    <input type="checkbox" name="hobi" value="Desain/Gambar"> Desain/Gambar <br>
+                    <input type="checkbox" name="hobi" value="Olahraga"> Olahraga <br>
+                    <input type="checkbox" name="hobi" value="Rebahan"> Rebahan <br>  
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi">
+                        <option value="PGSD">Pendidikan Guru Sekolah Dasar</option><br>
+                        <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option><br>
+                        <option value="PKP">Pendidikan Kelautan dan Perikanan</option><br>
+                        <option value="SIK">Sistem Informasi Kelautan</option><br>
+                        <option value="LK">Logistik Kelautan</option><br>
+                    </select>
+                </td>
+            </tr>
+        </table><br>
+        <button type="button">Submit</button>
+    </form>
+</body>
+</html>
